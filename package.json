@@ -1,0 +1,23 @@
+{
+  "name": "createchatbot-vutura",
+  "version": "1.0.0",
+  "description": "Testing on Create Chatbot Feature on Vutura.io Website",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^2.44.0",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/judhaananda/project-vutura-kelompok-2-sqa.git"
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": "node ./index.js -s ./step-definitions"
+  },
+  "author": "Judha Ananda Pratama",
+  "license": "Telkom Digital Talent Incubator (c) 2020"
+}
