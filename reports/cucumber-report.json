@@ -1,0 +1,325 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to Create a Chatbot",
+    "elements": [
+      {
+        "id": "create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Create Chatbot on Vutura.io website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page",
+            "result": {
+              "status": "passed",
+              "duration": 1472100
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 438700
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 299800
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button",
+            "result": {
+              "status": "passed",
+              "duration": 354600
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click Create Chatbot button",
+            "result": {
+              "status": "passed",
+              "duration": 3634100
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user choose the avatar",
+            "result": {
+              "status": "passed",
+              "duration": 562700
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill chatbot name",
+            "result": {
+              "status": "passed",
+              "duration": 269600
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill chatbot description",
+            "result": {
+              "status": "passed",
+              "duration": 344200
+            },
+            "line": 16,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Buat Chatbot button",
+            "result": {
+              "status": "passed",
+              "duration": 4472300
+            },
+            "line": 17,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see the new bot created",
+            "result": {
+              "status": "passed",
+              "duration": 16307911900
+            },
+            "line": 18,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbot-steps.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1952804000
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-chatbot-on-vutura.io-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Create Chatbot on Vutura.io website",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/createchatbot-vutura/features/createChatbot.feature"
+  },
+  {
+    "description": "    As a user\n    I want to be able to Create a Chatbot",
+    "elements": [
+      {
+        "id": "create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Failed to Create Chatbot on Vutura.io website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 671100
+            },
+            "line": 9,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 504800
+            },
+            "line": 10,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 430000
+            },
+            "line": 11,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 467300
+            },
+            "line": 12,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click Create Chatbot button (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 445900
+            },
+            "line": 13,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user choose the avatar (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 3946700
+            },
+            "line": 14,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill chatbot name (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 424400
+            },
+            "line": 15,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Buat Chatbot button (failed)",
+            "result": {
+              "status": "passed",
+              "duration": 403700
+            },
+            "line": 16,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user see the the failed to create bot notification",
+            "result": {
+              "status": "passed",
+              "duration": 14753730700
+            },
+            "line": 17,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\step-definitions\\createChatbotFail-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1651359300
+            },
+            "hidden": true,
+            "match": {
+              "location": "Yudha\\DTI_SQA\\createchatbot-vutura\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-chatbot-on-vutura.io-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Create Chatbot on Vutura.io website",
+    "tags": [],
+    "uri": "D:/File Yudha/DTI_SQA/createchatbot-vutura/features/createChatbotFail.feature"
+  }
+]

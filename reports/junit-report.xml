@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/createchatbot-vutura/features/createChatbot.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0014721">
+        </testcase>
+        <testcase name="And user fill email field" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0004387">
+        </testcase>
+        <testcase name="And user fill password field" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0002998">
+        </testcase>
+        <testcase name="And user click login button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003546">
+        </testcase>
+        <testcase name="And user click Create Chatbot button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0036341">
+        </testcase>
+        <testcase name="And user choose the avatar" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0005627">
+        </testcase>
+        <testcase name="And user fill chatbot name" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0002696">
+        </testcase>
+        <testcase name="And user fill chatbot description" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003442">
+        </testcase>
+        <testcase name="When user click Buat Chatbot button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0044723">
+        </testcase>
+        <testcase name="Then user see the new bot created" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="16.3079119">
+        </testcase>
+    </testsuite>
+    <testsuite name="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/File Yudha/DTI_SQA/createchatbot-vutura/features/createChatbotFail.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0006711">
+        </testcase>
+        <testcase name="And user fill email field (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0005048">
+        </testcase>
+        <testcase name="And user fill password field (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.00043">
+        </testcase>
+        <testcase name="And user click login button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004673">
+        </testcase>
+        <testcase name="And user click Create Chatbot button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004459">
+        </testcase>
+        <testcase name="And user choose the avatar (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0039467">
+        </testcase>
+        <testcase name="And user fill chatbot name (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004244">
+        </testcase>
+        <testcase name="When user click Buat Chatbot button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004037">
+        </testcase>
+        <testcase name="Then user see the the failed to create bot notification" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="14.7537307">
+        </testcase>
+    </testsuite>
+</testsuites>
