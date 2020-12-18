@@ -1,57 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" tests="10" failures="0" skipped="0">
+    <testsuite name="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" tests="12" failures="1" skipped="0">
         <properties>
             <property name="@success" value="true">
             </property>
-            <property name="URI" value="D:/File Yudha/DTI_SQA/createchatbot-vutura/features/createChatbot.feature">
+            <property name="URI" value="F:/Telkom Magang/functional-testing/features/edit.feature">
             </property>
         </properties>
-        <testcase name="Given user browse login page" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0014721">
+        <testcase name="Given user browse signin page" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0034167">
         </testcase>
-        <testcase name="And user fill email field" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0004387">
+        <testcase name="And user fill email field" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0002994">
         </testcase>
-        <testcase name="And user fill password field" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0002998">
+        <testcase name="And user fill password field" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0002991">
         </testcase>
-        <testcase name="And user click login button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003546">
+        <testcase name="And user click login button" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0004017">
         </testcase>
-        <testcase name="And user click Create Chatbot button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0036341">
+        <testcase name="And user click menu button" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.002878">
         </testcase>
-        <testcase name="And user choose the avatar" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0005627">
+        <testcase name="And user click profil button" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0006372">
         </testcase>
-        <testcase name="And user fill chatbot name" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0002696">
+        <testcase name="And user click edit button" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0009749">
         </testcase>
-        <testcase name="And user fill chatbot description" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0003442">
+        <testcase name="And user fill name field" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0006615">
         </testcase>
-        <testcase name="When user click Buat Chatbot button" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="0.0044723">
+        <testcase name="And user fill business field" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.0003846">
         </testcase>
-        <testcase name="Then user see the new bot created" classname="create-chatbot-on-vutura.io-website;create-chatbot-on-vutura.io-website" time="16.3079119">
+        <testcase name="And user fill number field" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.000606">
+        </testcase>
+        <testcase name="When user click restore button" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="0.000773">
+        </testcase>
+        <testcase name="Then user see the profile edited" classname="edit-profile-on-the-website;user-success-to-edit-profile-on-the-website" time="7.999783">
+            <failure message="ElementNotVisibleError: element not interactable">ElementNotVisibleError: element not interactable
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18363 x86_64)
+    at Object.checkLegacyResponse (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\error.js:529:15)
+    at parseHttpResponse (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebElement.click()
+    at thenableWebDriverProxy.schedule (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElementPromise.schedule_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
+    at WebElementPromise.click (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\webdriver.js:2096:17)
+    at Object.performClick (F:\Telkom Magang\functional-testing\page-objects\profil-btn.js:12:45)
+    at F:\Telkom Magang\functional-testing\step-definitions\edit-profile.js:31:35
+    at ManagedPromise.invokeCallback_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:676:7</failure>
         </testcase>
     </testsuite>
-    <testsuite name="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" tests="9" failures="0" skipped="0">
+    <testsuite name="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" tests="12" failures="1" skipped="0">
         <properties>
             <property name="@failed" value="true">
             </property>
-            <property name="URI" value="D:/File Yudha/DTI_SQA/createchatbot-vutura/features/createChatbotFail.feature">
+            <property name="URI" value="F:/Telkom Magang/functional-testing/features/editfail.feature">
             </property>
         </properties>
-        <testcase name="Given user browse login page (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0006711">
+        <testcase name="Given user browse signin page (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0004545">
         </testcase>
-        <testcase name="And user fill email field (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0005048">
+        <testcase name="And user fill email field (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0002638">
         </testcase>
-        <testcase name="And user fill password field (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.00043">
+        <testcase name="And user fill password field (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0001528">
         </testcase>
-        <testcase name="And user click login button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004673">
+        <testcase name="And user click login button (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0001428">
         </testcase>
-        <testcase name="And user click Create Chatbot button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004459">
+        <testcase name="And user click menu button (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0004446">
         </testcase>
-        <testcase name="And user choose the avatar (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0039467">
+        <testcase name="And user click profil button (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0007631">
         </testcase>
-        <testcase name="And user fill chatbot name (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004244">
+        <testcase name="And user click edit button (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0003348">
         </testcase>
-        <testcase name="When user click Buat Chatbot button (failed)" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="0.0004037">
+        <testcase name="And user fill name field (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0002766">
         </testcase>
-        <testcase name="Then user see the the failed to create bot notification" classname="create-chatbot-on-vutura.io-website;failed-to-create-chatbot-on-vutura.io-website" time="14.7537307">
+        <testcase name="And user fill business field (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0008151">
+        </testcase>
+        <testcase name="And user fill number field (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0006391">
+        </testcase>
+        <testcase name="When user click restore button (failed)" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="0.0004052">
+        </testcase>
+        <testcase name="Then user see failed the profile edited" classname="edit-profile-on-the-website;user-failed-to-edit-profile-on-the-website" time="8.1300469">
+            <failure message="ElementNotVisibleError: element not interactable">ElementNotVisibleError: element not interactable
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18363 x86_64)
+    at Object.checkLegacyResponse (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\error.js:529:15)
+    at parseHttpResponse (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebElement.click()
+    at thenableWebDriverProxy.schedule (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElementPromise.schedule_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\webdriver.js:2015:25)
+    at WebElementPromise.click (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\webdriver.js:2096:17)
+    at Object.performClick (F:\Telkom Magang\functional-testing\page-objects\profil-btn.js:12:45)
+    at F:\Telkom Magang\functional-testing\step-definitions\edit-profilefail.js:31:35
+    at ManagedPromise.invokeCallback_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at F:\Telkom Magang\functional-testing\node_modules\selenium-webdriver\lib\promise.js:676:7</failure>
         </testcase>
     </testsuite>
 </testsuites>

@@ -1,7 +1,7 @@
 {
-  "name": "createchatbot-vutura",
+  "name": "functional-testing",
   "version": "1.0.0",
-  "description": "Testing on Create Chatbot Feature on Vutura.io Website",
+  "description": "Learn Functional Testing",
   "main": "index.js",
   "dependencies": {
     "chromedriver": "^2.44.0",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/judhaananda/project-vutura-kelompok-2-sqa.git"
+    "url": ""
   },
   "scripts": {
     "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
     "test-headless": "node ./index.js -s ./step-definitions"
   },
-  "author": "Judha Ananda Pratama",
-  "license": "Telkom Digital Talent Incubator (c) 2020"
+  "author": "Rafli Ramadhan",
+  "license": "Digital Talent Incubator (c) 2020"
 }
